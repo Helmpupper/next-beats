@@ -21,3 +21,5 @@ EXPOSE 3000
 
 # Start the application
 CMD ["npm", "start"]
+
+LABEL org.opencontainers.image.source https://github.com/Helmpupper/next-beats
