@@ -1,8 +1,5 @@
 # <img src="public/icon.svg" alt="NextBeats Icon" width="28" height="28" style="vertical-align: middle;"> NextBeats
 
-A modern, customizable lofi music player built with Next.js and TypeScript. Perfect for coding, studying, or just chilling.
-Try it out: [demo](https://nextbeats.vercel.app/).
-
 <p align="center">
   <img src="demo.gif" alt="NextBeats Demo" width="800px" />
 </p>
@@ -67,7 +64,7 @@ Each effect has its own volume control, so you can mix them perfectly with your 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/btahir/next-beats.git
+git clone https://github.com/Helmpupper/next-beats.git
 cd next-beats
 ```
 
@@ -106,7 +103,7 @@ You can also run NextBeats using Docker:
 docker build -t next-beats .
 
 # Run the container
-docker run -p 3000:3000 next-beats
+docker run -p 3000:3000 ghcr.io/helmpupper/nextbeats:latest
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to start vibing! 🎧

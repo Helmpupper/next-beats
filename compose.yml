@@ -1,0 +1,6 @@
+---
+services:
+    nextbeats:
+        ports:
+            - 3000:3000
+        image: ghcr.io/helmpupper/nextbeats:latest
